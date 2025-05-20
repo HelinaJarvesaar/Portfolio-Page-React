@@ -6,7 +6,9 @@
 
 ## Overview:
 
-This project is a portfolio website built with React. It features a contact form with validation, responsive design, and interactive UI components to showcase skills and projects effectively. It was developed as part of the Meta Front-End Developer Professional Certificate course on Coursera.
+- This project is a portfolio website built with React.
+- It features a contact form with validation, responsive design, and interactive UI components to showcase skills and projects effectively.
+- It was developed as part of the Meta Front-End Developer Professional Certificate course on Coursera.
 
 ## Technologies Used:
 - **React** - Frontend UI library
