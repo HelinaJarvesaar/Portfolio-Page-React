@@ -13,7 +13,7 @@ This project is a portfolio website built with React. It features a contact form
 - **Formik & Yup** - Form management and validation
 - **Chakra UI** - Component styling and layout
 - **GitHub Pages** - Hosting and deployment
-- **JavaScript **(ES6+) - Core programming language
+- **JavaScript** (ES6+) - Core programming language
 - **Git & GitHub** - Version control and source code management
 
 ## Project link:
