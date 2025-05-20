@@ -70,33 +70,51 @@ const LandingSection = () => {
       py={16}
       spacing={8}
     >
-      <VStack w="1024px" p={32} alignItems="flex-start">
+      <VStack
+        w={{ base: "90%", md: "1024px" }}
+        maxW="1024px"
+        p={{ base: 6, md: 32 }}
+        alignItems="flex-start"
+        mx="auto"
+      >
         <Heading as="h1" id="contactme-section">
           Contact me
         </Heading>
-        <Box p={6} rounded="md" w="100%">
+        <Box p={{ base: 4, md: 6 }} rounded="md" w="100%">
           <form onSubmit={formik.handleSubmit}>
             <VStack spacing={4}>
               <FormControl isInvalid=
               {formik.touched.firstName && Boolean(formik.errors.firstName)}>
                 <FormLabel htmlFor="firstName">Name</FormLabel>
-                <Input id="firstName" {...formik.getFieldProps("firstName")} />
+                <Input 
+                  id="firstName" 
+                  {...formik.getFieldProps("firstName")} 
+                  width="100%"
+                  maxW={{ base: "100%", md: "400px" }}
+                />
                 <FormErrorMessage>{formik.errors.firstName}</FormErrorMessage>
               </FormControl>
               <FormControl isInvalid=
               {formik.touched.email && Boolean(formik.errors.email)}>
                 <FormLabel htmlFor="email">Email Address</FormLabel>
-                <Input id="email" type="email" {...formik.getFieldProps("email")} />
+                <Input 
+                  id="email" type="email" 
+                  {...formik.getFieldProps("email")} 
+                  width="100%"
+                  maxW={{ base: "100%", md: "400px" }}
+                />
                 <FormErrorMessage>{formik.errors.email}</FormErrorMessage>
               </FormControl>
               <FormControl isInvalid={formik.touched.type && Boolean(formik.errors.type)}
                 position="relative"
+                maxW={{ base: "100%", md: "400px" }}
               >
                 <FormLabel htmlFor="type">Type of enquiry</FormLabel>
                 <Select
                   id="type" placeholder="Select option"
                   zIndex={9999} 
                   {...formik.getFieldProps("type")}
+                  width="100%"
                 >
                   <option value="hireMe">Freelance project proposal</option>
                   <option value="openSource">Open source consultancy session</option>
@@ -107,7 +125,13 @@ const LandingSection = () => {
               <FormControl isInvalid=
                 {formik.touched.comment && Boolean(formik.errors.comment)}>
                 <FormLabel htmlFor="comment">Your message</FormLabel>
-                <Textarea id="comment" height={250} {...formik.getFieldProps("comment")} />
+                <Textarea 
+                  id="comment" 
+                  height={250} 
+                  {...formik.getFieldProps("comment")} 
+                  width="100%"
+                  maxW={{ base: "100%", md: "600px" }}
+                />
                 <FormErrorMessage>{formik.errors.comment}</FormErrorMessage>
               </FormControl>
               <Button type="submit" colorScheme="purple" width="full">
