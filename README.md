@@ -6,7 +6,7 @@
 
 ## Overview:
 
-This project is a personal portfolio website built with React. It features a contact form with validation, responsive design, and interactive UI components to showcase skills and projects effectively.
+This project is a portfolio website built with React. It features a contact form with validation, responsive design, and interactive UI components to showcase skills and projects effectively. It was developed as part of the Meta Front-End Developer Professional Certificate course on Coursera.
 
 ## Technologies Used:
 - React - Frontend UI library
@@ -16,7 +16,9 @@ This project is a personal portfolio website built with React. It features a con
 - JavaScript (ES6+) - Core programming language
 - Git & GitHub - Version control and source code management
 
-## Page:
+## Project link:
+
+[Portfolio_React](https://helinajarvesaar.github.io/Portfolio-Page-React/)
 
 
 ## Screenshots:
