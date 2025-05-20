@@ -9,16 +9,16 @@
 This project is a portfolio website built with React. It features a contact form with validation, responsive design, and interactive UI components to showcase skills and projects effectively. It was developed as part of the Meta Front-End Developer Professional Certificate course on Coursera.
 
 ## Technologies Used:
-- React - Frontend UI library
-- Formik & Yup - Form management and validation
-- Chakra UI - Component styling and layout
-- GitHub Pages - Hosting and deployment
-- JavaScript (ES6+) - Core programming language
-- Git & GitHub - Version control and source code management
+- **React** - Frontend UI library
+- **Formik & Yup** - Form management and validation
+- **Chakra UI** - Component styling and layout
+- **GitHub Pages** - Hosting and deployment
+- **JavaScript **(ES6+) - Core programming language
+- **Git & GitHub** - Version control and source code management
 
 ## Project link:
 
-[Portfolio_React](https://helinajarvesaar.github.io/Portfolio-Page-React/)
+- [**Portfolio_React**](https://helinajarvesaar.github.io/Portfolio-Page-React/)
 
 
 ## Screenshots:
