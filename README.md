@@ -4,6 +4,21 @@
 
 # Portfolio App - My First React App
 
+## Overview:
+
+This project is a personal portfolio website built with React. It features a contact form with validation, responsive design, and interactive UI components to showcase skills and projects effectively.
+
+## Technologies Used:
+- React - Frontend UI library
+- Formik & Yup - Form management and validation
+- Chakra UI - Component styling and layout
+- GitHub Pages - Hosting and deployment
+- JavaScript (ES6+) - Core programming language
+- Git & GitHub - Version control and source code management
+
+## Page:
+
+
 ## Screenshots:
 
 <img width="696" alt="Screenshot 2025-05-20 at 23 58 58" src="https://github.com/user-attachments/assets/e8c927cc-ff1a-446c-9964-b8097cfa71de" />
