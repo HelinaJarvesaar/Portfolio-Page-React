@@ -90,7 +90,6 @@ const LandingSection = () => {
                   id="firstName" 
                   {...formik.getFieldProps("firstName")} 
                   width="100%"
-                  maxW={{ base: "100%", md: "400px" }}
                 />
                 <FormErrorMessage>{formik.errors.firstName}</FormErrorMessage>
               </FormControl>
@@ -101,14 +100,10 @@ const LandingSection = () => {
                   id="email" type="email" 
                   {...formik.getFieldProps("email")} 
                   width="100%"
-                  maxW={{ base: "100%", md: "400px" }}
                 />
                 <FormErrorMessage>{formik.errors.email}</FormErrorMessage>
               </FormControl>
-              <FormControl isInvalid={formik.touched.type && Boolean(formik.errors.type)}
-                position="relative"
-                maxW={{ base: "100%", md: "400px" }}
-              >
+              <FormControl isInvalid={formik.touched.type && Boolean(formik.errors.type)}>
                 <FormLabel htmlFor="type">Type of enquiry</FormLabel>
                 <Select
                   id="type" placeholder="Select option"
@@ -130,7 +125,6 @@ const LandingSection = () => {
                   height={250} 
                   {...formik.getFieldProps("comment")} 
                   width="100%"
-                  maxW={{ base: "100%", md: "600px" }}
                 />
                 <FormErrorMessage>{formik.errors.comment}</FormErrorMessage>
               </FormControl>
