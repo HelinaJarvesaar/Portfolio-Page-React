@@ -4,6 +4,8 @@ import {
   AlertDialogContent,
   AlertDialogHeader,
   AlertDialogOverlay,
+  AlertDialogFooter,
+  Button,
 } from "@chakra-ui/react";
 import { useAlertContext } from "../context/alertContext";
 import React, { useRef } from "react";
@@ -31,6 +33,11 @@ function Alert() {
           <AlertDialogBody>
             {message}
           </AlertDialogBody>
+          <AlertDialogFooter>
+            <Button ref={cancelRef} onClick={onClose}>
+              Close
+            </Button>
+          </AlertDialogFooter>
         </AlertDialogContent>
       </AlertDialogOverlay>
     </AlertDialog>
