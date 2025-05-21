@@ -105,7 +105,6 @@ const LandingSection = () => {
                 <FormLabel htmlFor="type">Type of enquiry</FormLabel>
                 <Select
                   id="type" placeholder="Select option"
-                  zIndex={9999} 
                   {...formik.getFieldProps("type")}
                   width="100%"
                 >
