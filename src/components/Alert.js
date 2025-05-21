@@ -34,7 +34,7 @@ function Alert() {
             {message}
           </AlertDialogBody>
           <AlertDialogFooter>
-            <Button ref={cancelRef} onClick={onClose}>
+            <Button ref={cancelRef} onClick={onClose} backgroundColor={isSuccess ? '#81C784' : '#FF8A65'}>
               Close
             </Button>
           </AlertDialogFooter>
