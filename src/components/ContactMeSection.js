@@ -33,15 +33,9 @@ const LandingSection = () => {
       comment: ""
     },
 
-    onSubmit: async (values) => {
-      const url = "https://example.com"; // placeholder
-      try {
-        await submit(url, values);
-        // Optionally reset form or show success message here
-      } catch (error) {
-        console.error(error);
-      }
-    },
+   onSubmit: (values) => { 
+     submit('https://john.com/contactme', values); 
+   }, 
 
     validationSchema: Yup.object({
       firstName: Yup.string()
@@ -57,14 +51,14 @@ const LandingSection = () => {
     }),
   });
 
-  useEffect(() => {
-    if (response) {
-      onOpen(response.type, response.message); // Pass string, not JSX
-      if (response.type === "success") {
-        formik.resetForm();
-      }
-    }
-  }, [response, onOpen, formik]);
+ useEffect(() => { 
+   if (response) { 
+     onOpen(response.type, response.message); 
+     if (response.type === 'success') { 
+       formik.resetForm(); 
+     } 
+   } 
+ }, [response]); 
 
 
   return (
