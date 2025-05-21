@@ -2,7 +2,7 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="100" alt="React Logo" />
 </p>
 
-# Portfolio Page - My First React work
+# Portfolio Page - My First React.js work
 
 ## Overview:
 
