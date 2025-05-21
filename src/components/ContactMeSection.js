@@ -17,6 +17,10 @@ import FullScreenSection from "./FullScreenSection";
 import useSubmit from '../hooks/useSubmit';
 import { useAlertContext } from '../context/alertContext';
 
+/** 
+* Covers a complete form implementation using formik and yup for validation 
+*/ 
+
 const LandingSection = () => {
   const {isLoading, response, submit} = useSubmit();
   const { onOpen } = useAlertContext();
